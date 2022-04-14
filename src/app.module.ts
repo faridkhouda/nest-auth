@@ -4,4 +4,6 @@ import { MongooseModule } from '@nestjs/mongoose';
 @Module({
   imports: [MongooseModule.forRoot('mongodb://localhost/nest')],
 })
-export class AppModule {}
+export class AppModule {
+  const test
+}
